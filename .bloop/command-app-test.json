@@ -17,7 +17,22 @@
         "classpath": [
             "/home/kanta/workspace/scala/command-app/.bloop/command-app/scala-2.13/classes",
             "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar",
-            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.13/3.5.0/scalikejdbc_2.13-3.5.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-config_2.13/3.5.0/scalikejdbc-config_2.13-3.5.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.13/3.5.0/scalikejdbc-core_2.13-3.5.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.13/3.5.0/scalikejdbc-interpolation_2.13-3.5.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.7.0/commons-dbcp2-2.7.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.6/scala-collection-compat_2.13-2.1.6.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.13/3.5.0/scalikejdbc-interpolation-macro_2.13-3.5.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.7.0/commons-pool2-2.7.0.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar"
         ],
         "out": "/home/kanta/workspace/scala/command-app/.bloop/command-app",
         "classesDir": "/home/kanta/workspace/scala/command-app/.bloop/command-app/scala-2.13/test-classes",
@@ -142,6 +157,261 @@
                             "name": "scala-parser-combinators_2.13",
                             "classifier": "sources",
                             "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalikejdbc",
+                    "name": "scalikejdbc_2.13",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalikejdbc_2.13",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.13/3.5.0/scalikejdbc_2.13-3.5.0.jar"
+                        },
+                        {
+                            "name": "scalikejdbc_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.13/3.5.0/scalikejdbc_2.13-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "mysql",
+                    "name": "mysql-connector-java",
+                    "version": "5.1.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mysql-connector-java",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar"
+                        },
+                        {
+                            "name": "mysql-connector-java",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalikejdbc",
+                    "name": "scalikejdbc-config_2.13",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalikejdbc-config_2.13",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-config_2.13/3.5.0/scalikejdbc-config_2.13-3.5.0.jar"
+                        },
+                        {
+                            "name": "scalikejdbc-config_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-config_2.13/3.5.0/scalikejdbc-config_2.13-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalikejdbc",
+                    "name": "scalikejdbc-core_2.13",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalikejdbc-core_2.13",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.13/3.5.0/scalikejdbc-core_2.13-3.5.0.jar"
+                        },
+                        {
+                            "name": "scalikejdbc-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.13/3.5.0/scalikejdbc-core_2.13-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalikejdbc",
+                    "name": "scalikejdbc-interpolation_2.13",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalikejdbc-interpolation_2.13",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.13/3.5.0/scalikejdbc-interpolation_2.13-3.5.0.jar"
+                        },
+                        {
+                            "name": "scalikejdbc-interpolation_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.13/3.5.0/scalikejdbc-interpolation_2.13-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-dbcp2",
+                    "version": "2.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-dbcp2",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.7.0/commons-dbcp2-2.7.0.jar"
+                        },
+                        {
+                            "name": "commons-dbcp2",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.7.0/commons-dbcp2-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.6/scala-collection-compat_2.13-2.1.6.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.6/scala-collection-compat_2.13-2.1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalikejdbc",
+                    "name": "scalikejdbc-interpolation-macro_2.13",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalikejdbc-interpolation-macro_2.13",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.13/3.5.0/scalikejdbc-interpolation-macro_2.13-3.5.0.jar"
+                        },
+                        {
+                            "name": "scalikejdbc-interpolation-macro_2.13",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.13/3.5.0/scalikejdbc-interpolation-macro_2.13-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-pool2",
+                    "version": "2.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-pool2",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.7.0/commons-pool2-2.7.0.jar"
+                        },
+                        {
+                            "name": "commons-pool2",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.7.0/commons-pool2-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/kanta/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3-sources.jar"
                         }
                     ]
                 },
